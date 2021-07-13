@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+h1 {
+    font-family: fantasy;
+    color: rgba(243, 137, 137, 0.61);
+    font-size: 60px;
+
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 232, 240);
+    border: 1px solid rgb(18, 21, 201);
+    display: inline-block;
+}
+.o{
+    position: relative;
+
+}
+.o:after{
+    position: absolute;
+    content: "\274C";
+    font-size: 55px;
+    line-height: 100px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.x{
+    position: relative;
+
+}
+.x:after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 55px;
+    line-height: 100px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
